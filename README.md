@@ -1,6 +1,6 @@
 # ada-2021-project-milestone-2-dataoverflow
 
-We would like to analyze the view of China in the eyes of western public figures. Over the years we have observed deteriorating relations between the US and China, caused in previous years by, the US China trade war, and more recently the outbreak of Covid-19. With this research we would like to provide an account of the changing relations as viewed from the western perspective. 
+Over the years we have observed deteriorating relations between the US and China. In previous years we have seen escalating tensions as a result of the increasing trade deficit of the US with respect to China. More recently, the news has been dominated by the worldwide outbreak of Covid-19, for which some in the US blame China. It seems that often much of the opinions people hold find their origins with some public figure. Our research would therefore like to analyze the utterances of western public figures about China, as a reflection of the oppinions of the general public. This research will therefore aim to provide an account of the changing relations as viewed from the western perspective. 
 
 ## Research questions
 
