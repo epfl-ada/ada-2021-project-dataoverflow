@@ -14,6 +14,8 @@ In order to answer this question, we propose the following sub-questions:
 - What main topics do western people associate China with?
 
     We would like to analyze which topics western public figures present when talking about China. We think that this is a good first-shot method to gain insight into possible answers to the main research question, as they provide our later analyses with context about the relationship between the west and China. A possible finding might for example be that in 2020, the most frequent topic regarding China is Covid-19. This would then provide context to an analysis between for example the view of different political parties.
+
+- How do these topics vary from time?
     
 - What are the attitudes of the Western people towards these topic? Have these attitudes ever changed?
 
@@ -25,12 +27,15 @@ There are also some questions that worth investigating:
 
 - Do the views of the same speaker differ when quoted by different press?
 
+## Proposed additional datasets
+
+#### Quotebank Article-centric Dataset
 
 ## Methods
 
 #### Data cleaning
 
-###### Filter Data by Topic
+Filter Data by Topic
 
 #### Initial Analysis
 
