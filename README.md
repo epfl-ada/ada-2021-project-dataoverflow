@@ -43,7 +43,7 @@ There are also some questions that worth investigating:
 
 #### Data cleaning
 
-Filter Data by Topic
+Filter Data with keywords mentioned in topic and quotations. Then enrich the sub-dataset by picking the quotations that appear in the extracted data.
 
 #### Initial Analysis
 
