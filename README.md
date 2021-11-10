@@ -42,7 +42,7 @@ There are also some questions that worth investigating:
 ## Methods
 
 #### Data cleaning
-hah
+
 Filter Data by Topic
 
 #### Initial Analysis
