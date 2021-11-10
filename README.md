@@ -32,6 +32,8 @@ There are also some questions that worth investigating:
 
 - Will there be any difference between the view of Western press and that of ordinary people ?
 
+- Do the views about China from western world and other part of the world like India, middle east differ? If so, how?
+
 ## Proposed additional datasets
 ` Quotebank Article-centric Dataset `
 
