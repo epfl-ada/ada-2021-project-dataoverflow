@@ -16,6 +16,8 @@ In order to answer this question, we propose the following sub-questions:
     We would like to analyze which topics western public figures present when talking about China. We think that this is a good first-shot method to gain insight into possible answers to the main research question, as they provide our later analyses with context about the relationship between the west and China. A possible finding might for example be that in 2020, the most frequent topic regarding China is Covid-19. This would then provide context to an analysis between for example the view of different political parties.
 
 - How do these topics vary from time?
+
+   After extracting all the topics western press related China with, we want to build a graph showing how the topics about China changes through time. By doing so, we can have a clearer look about how topic changes through time and associate the topic with the big event happened during that time.
     
 - What are the attitudes of the Western people towards these topic? Have these attitudes ever changed?
 
@@ -46,9 +48,9 @@ By Press
 
 #### Sentiment analysis 
 
-#### 
 
-#### 
 
-## Timeline and milestones
+## Milestones and Proposed timeline
+
+## Team Organization
 
