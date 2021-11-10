@@ -1,7 +1,10 @@
-# ada-2021-project-milestone-2-dataoverflow
-
 # Quotations: China from a western perspective.
-Over the years we have observed deteriorating relations between the US and China. In previous years we have seen escalating tensions as a result of the increasing trade deficit of the US with respect to China. More recently, the news has been dominated by the worldwide outbreak of Covid-19, for which some in the US blame China. It seems that often much of the opinions people hold find their origins with some public figure. Our research would therefore like to analyze the utterances of western public figures about China, as a reflection of the oppinions of the general public. This research will therefore aim to provide an account of the changing relations as viewed from the western perspective. 
+
+---
+
+## Abstract
+
+​    Over the years we have observed deteriorating relations between the US and China. In previous years we have seen escalating tensions as a result of the increasing trade deficit of the US with respect to China. More recently, the news has been dominated by the worldwide outbreak of Covid-19, for which some in the US blame China. It seems that often much of the opinions people hold find their origins with some public figure. Our research would therefore like to analyze the utterances of western public figures about China, as a reflection of the opinions of the general public. This research will therefore aim to provide an account of the changing relations as viewed from the western perspective. 
 
 ## Research questions
 
@@ -9,69 +12,80 @@ The main research question we would like to answer is:
 
 **What is the view of the western world on China?**
 
-In order to answer this question, we propose the following sub-questions:
+To answer this question, we propose the following sub-questions:
 
 - What main topics do western people associate China with?
 
-    We would like to analyze which topics western public figures present when talking about China. We think that this is a good first-shot method to gain insight into possible answers to the main research question, as they provide our later analyses with context about the relationship between the west and China. A possible finding might for example be that in 2020, the most frequent topic regarding China is Covid-19. This would then provide context to an analysis between for example the view of different political parties.
+    ​     We would like to analyze which topics western public figures present when talking about China. We think that this is a good first-shot method to gain insight into possible answers to the main research question, as they provide our later analyses with context about the relationship between the West and China. A possible finding might for example be that in 2020, the most frequent topic regarding China is Covid-19. This would then provide context to analysis between for example the view of different political parties.
 
-- How do these topics vary from time?
+- How do these topics vary over time?
 
-   After extracting all the topics western press related China with, we are interested in how the main topics people tends to related China in different year or under different events. We want to answer this question by building a graph showing how the topics about China changes by analysing the main topic in a certain time period, for example in every two weeks. After that, we can have a clearer look about how topics changes and may associate topics with the big events happened during that time.
-    
-- What are the attitudes of the Western people towards these topic? Have these attitudes ever changed?
+   ​    After extracting all the topics the western press associate China with, we are interested in how the main topics people tends to associate with China in different years. Will the topics change when big events happen? And will there be any topic that the press associate China with all the time?  This result will help us to connect our data with the big events these years.
    
+- What are the attitudes of the Western press towards these topics? Have these attitudes ever changed?
+  
+  ​    What interest us most is the attitudes these quotations show towards China. We believe that these quotes represent the attitude of the speakers and the media towards China, and to some extent, the views of the public towards China. For instance, there will be a negative attitude towards china in the quotations related to Covid-19. Also, we will do this in the time slot to see if there are any differences. 
+  
+- Do attitudes differ between countries, political parties and different news sources?
 
-- Do attitudes differ between countries, the political parties and different news sources?
+  ​    After focusing on the big picture, we want to look back to specific countries, political parties and different news sources. For example, attitudes from European countries and US may be different. In the US, Democrats may have more positive attitudes than Republicans. 
 
 There are also some questions that worth investigating:
 
 - For some certain speakers, Have their views ever changed?
+- Do the views of the same speaker differ when quoted by the different press?
+- Will there be any difference between the view of the Western press and that of ordinary people?
 
-- Do the views of the same speaker differ when quoted by different press?
+## Proposed datasets
+` Quotebank Article-centric Dataset ` In order to obtain quotes about China, we need to filter the Quotebank dataset. However, we notice that there are many quotations that are related to China but do not contain any keyword like 'China' or 'Sino-'.  To have a more complete dataset, we decide to use the Quotebank Article-centric Dataset to filter the data by white-listed keywords, since the titles of the news article usually envelop the whole idea of the article. This sub-dataset will be more reasonable and complete. 
 
-- Will there be any difference between the view of Western press and that of ordinary people ?
+` Wikidata API `： Since we plan to invest the different attitudes in countries, political parties and different news sources, we intend to use Wikidata API to get detailed information about speakers like nationality, party affiliation, etc. and some details about the news media.
 
-- Do the views about China from western world and other part of the world like India, middle east differ? If so, how?
-
-## Proposed additional datasets
-` Quotebank Article-centric Dataset `
-
-` wikidata API `
-
-` Polls dataset on people's attitude towards China`
+` Polls dataset on people's attitude towards China` In order to answer the question: 'Will there be any difference between the view of the Western press and that of ordinary people?', we need some data that shows the public's attitude more directly. Therefore, we found some datasets on www.pewresearch.org that provide some polls about how the public thinks about China in different countries from 2018 - 2020. 
 
 ## Methods
 
-#### Data cleaning
+#### Data Cleaning and Initial Analysis
 
-Filter Data with keywords mentioned in topic and quotations. Then enrich the sub-dataset by picking the quotations that appear in the extracted data.
+The first step of data cleaning is to extract the quotation related to China. Filter Data with keywords mentioned in the topic. Then enrich the sub-dataset by picking the quotations that appear in the extracted data.
 
-#### Initial Analysis
+#### Topic and Keyword Extraction
 
-By Time
-By Press
-
-#### Topic Extraction By LDA
+keyBert We want to answer this question by building a graph showing how the topics about China changes by analysing the main topic in a certain period, for example in every two weeks. 
 
 #### Sentiment analysis 
+
+We plan to classify quotations by different topics and analyze the sentiment they are showing. For instance, there will be a negative attitude towards china in the quotations related to Covid-19. Also, we will do this in the time slot to see if there are any differences.
 
 
 
 ## Milestones and Proposed timeline
 |  Date |  Task    |  Completion    |
 | ---- | ---- | ---- |
-|  By Week 8 (Milestone 2 Due)   |    Finish initial assumptions and dataing cleaning, Try some initial analysis on the subsample data  |      |
-|  By Week 10 (HW2 Due)   |   Finish topic extaction task   |      |
-|  By week 11    |   Finish sentiment analysis     |      |
-|  By week 12   |    Analyse data and visualize the result |      |
-|  By week 13 (Milestone 3 Due)  |   Draw the final conclusion, finished notebook and readme.md file    |      |
+|  By Week 8 (Milestone 2 Due)   | Finish initial assumptions. Get a sub-dataset from extraction and cleaning the `quotebank-2020.json.bz2`. Try some initial analysis on the sub-dataset.  | :heavy_check_mark: |
+|  By Week 10 (HW2 Due)   |   Finish extraction and cleaning of the dataset from the year 2008-2020. Finish topic extraction.   |      |
+|  By week 11    | Finish sentiment analysis. Draw some initial conclusions of the big picture. |      |
+|  By week 12   | Do deeper analysis and visualizations on each of the above research topics. |      |
+|  By week 13 (Milestone 3 Due)  |   Finalize the conclusions. Finish the notebook and the Readme file. Present our data story on a GitHub webpage.   |      |
 
 
 
 
 ## Team Organization
-@Bonan
+@Bonan Feiwu, Open the light
+
 @Jozef
-@Rui
-@Yurui
+
+@Rui. Feiwu
+
+@Yurui Da Feiwu, Programmer Encourager
+
+
+
+
+
+---
+
+
+
+### Code Architecture
