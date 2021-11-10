@@ -17,9 +17,10 @@ In order to answer this question, we propose the following sub-questions:
 
 - How do these topics vary from time?
 
-   After extracting all the topics western press related China with, we want to build a graph showing how the topics about China changes through time. By doing so, we can have a clearer look about how topic changes through time and associate the topic with the big event happened during that time.
+   After extracting all the topics western press related China with, we are interested in how the main topics people tends to related China in different year or under different events. We want to answer this question by building a graph showing how the topics about China changes by analysing the main topic in a certain time period, for example in every two weeks. After that, we can have a clearer look about how topics changes and may associate topics with the big events happened during that time.
     
 - What are the attitudes of the Western people towards these topic? Have these attitudes ever changed?
+   
 
 - Do attitudes differ between countries, the political parties and different news sources?
 
@@ -29,9 +30,14 @@ There are also some questions that worth investigating:
 
 - Do the views of the same speaker differ when quoted by different press?
 
-## Proposed additional datasets
+- Will there be any difference between the view of Western press and that of ordinary people ?
 
-#### Quotebank Article-centric Dataset
+## Proposed additional datasets
+` Quotebank Article-centric Dataset `
+
+` wikidata API `
+
+` Polls dataset on people's attitude towards China`
 
 ## Methods
 
@@ -51,6 +57,19 @@ By Press
 
 
 ## Milestones and Proposed timeline
+|  Date |  Task    |  Completion    |
+| ---- | ---- | ---- |
+|  By Week 8 (Milestone 2 Due)   |    Finish initial assumptions and dataing cleaning, Try some initial analysis on the subsample data  |      |
+|  By Week 10 (HW2 Due)   |   Finish topic extaction task   |      |
+|  By week 11    |   Finish sentiment analysis     |      |
+|  By week 12   |    Analyse data and visualize the result |      |
+|  By week 13 (Milestone 3 Due)  |   Draw the final conclusion, finished notebook and readme.md file    |      |
+
+
+
 
 ## Team Organization
-
+@Bonan
+@Jozef
+@Rui
+@Yurui
