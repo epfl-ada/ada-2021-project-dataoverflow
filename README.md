@@ -4,7 +4,7 @@
 
 ## Abstract
 
-​    Over the years we have observed deteriorating relations between the US and China. In previous years we have seen escalating tensions as a result of the increasing trade deficit of the US with respect to China. More recently, the news has been dominated by the worldwide outbreak of Covid-19, for which some in the US blame China. It seems that often much of the opinions people hold find their origins with some public figure. Our research would therefore like to analyze the utterances of western public figures about China, as a reflection of the opinions of the general public. This research will therefore aim to provide an account of the changing relations as viewed from the western perspective. 
+​    Over the years we have observed deteriorating relations between the US and China. In previous years we have seen escalating tensions as a result of the increasing trade deficit of the US with respect to China. More recently however, the news has been dominated by the worldwide outbreak of Covid-19, for which some in the US blame China. It seems that often much of the opinions people hold find their origins with some public figure. Our research would therefore like to analyze the utterances of western public figures about China, as a reflection of the opinions of the general public. This research will therefore aim to provide an account of the changing relations as viewed from the western perspective. 
 
 ## Research Questions
 
@@ -20,11 +20,11 @@ To answer this question, we propose the following sub-questions:
 
 2. How do these topics vary over time?
 
-​    After extracting all the topics the western press associate China with, we are interested in how the main topics people tends to associate with China in different years. Will the topics change when big events happen? And will there be any topic that the press associate China with all the time?  This result will help us to connect our data with the big events these years.
+​    After extracting all the topics the western press associate China with, we are interested in how the main topics people associate with China change over time. Will the topics change when big events happen? And will there be any topic that the press associate China with all the time?  This result will help us to connect our data with the big events these years.
 
 3. What are the attitudes of the Western press towards these topics? Have these attitudes ever changed?
 
-​    What interest us most is the attitudes these quotations show towards China. We believe that these quotes represent the attitude of the speakers and the media towards China, and to some extent, the views of the public towards China. For instance, there will be a negative attitude towards china in the quotations related to Covid-19. Also, we will do this in the time slot to see if there are any differences. 
+​    What interest us most is the attitudes these quotations show towards China. We believe that these quotes represent the attitude of the speakers and the media towards China, and to some extent, the views of the public towards China. For instance, there may likely be a negative attitude towards china in the quotations related to Covid-19. We will also anayze these attitudes as they change over time. 
 
 4. Do attitudes differ between different speakers?
 
@@ -37,9 +37,9 @@ There are also some questions that worth investigating:
 - Will there be any difference between the view of the Western press and that of ordinary people?
 
 ## Proposed datasets
-` Quotebank Article-centric Dataset ` In order to obtain quotes about China, we need to filter the Quotebank dataset. However, we notice that there are many quotations that are related to China but do not contain any keyword like 'China' or 'Sino-'.  To have a more complete dataset, we decide to use the Quotebank Article-centric Dataset to filter the data by white-listed keywords, since the titles of the news article usually envelop the whole idea of the article. This sub-dataset will be more reasonable and complete. 
+` Quotebank Article-centric Dataset ` In order to obtain quotes about China, we need to filter the Quotebank dataset. However, we notice that there are many quotations that are related to China but do not contain any keyword like 'China' or 'Sino-'.  To have a more complete dataset, we decide to use the Quotebank Article-centric Dataset to filter the data by white-listed keywords.
 
-` Wikidata API `： To answer research question No.4, we need more detailed information about each speaker. Thus, we intend to use Wikidata API to get detailed information about speakers like gender, age,  nationality, party affiliation, etc for further analysis.
+` Speaker_Attributes.parquet `： To answer research question No.4, we need more detailed information about each speaker. Thus, we intend to use the speaker attributes to get detailed information about them like gender, age,  nationality, party affiliation, etc for further analysis.
 
 ` Polls dataset on people's attitude towards China` In order to answer the question: 'Will there be any difference between the view of the Western press and that of ordinary people?', we need some data that shows the public's attitude more directly. Therefore, we found some datasets on www.pewresearch.org that provide some polls about how the public thinks about China in different countries from 2018 - 2020. 
 
