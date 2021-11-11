@@ -20,7 +20,7 @@ To answer this question, we propose the following sub-questions:
 
 2. How do these topics vary over time?
 
-​    After extracting all the topics the western press associate China with, we are interested in how the main topics people tends to associate with China in different years. Will the topics change when big events happen? And will there be any topic that the press associate China with all the time?  This result will help us to connect our data with the big events these years.3
+​    After extracting all the topics the western press associate China with, we are interested in how the main topics people tends to associate with China in different years. Will the topics change when big events happen? And will there be any topic that the press associate China with all the time?  This result will help us to connect our data with the big events these years.
 
 3. What are the attitudes of the Western press towards these topics? Have these attitudes ever changed?
 
@@ -51,11 +51,11 @@ The first step of data cleaning is to extract the quotation related to China. We
 
 #### Topic and Keyword Extraction 
 
-To answer research questions 1 and 2, we need to extract the keywords of the data. We use KeyBERT, a minimal keyword extraction technique that leverages BERT embeddings to create keywords and key phrases that are most similar to a document. We will apply KeyBERT to the title column and classify the quotes into keyword groups based on the title of the article in which they appear. And we can use this result for data visualization as well as for further sentiment analysis.
+To answer research questions 1 and 2, we need to extract the keywords of the data. We use KeyBERT, a minimal keyword extraction technique that leverages BERT embeddings to create keywords and key phrases that are most similar to a document. We will apply KeyBERT to the title column and classify the quotes into keyword groups based on the title of the article in which they appear. We expect a classification of quotations, and apply the time series analysis on the result and visualize the data to see how topics change in time. This result can also be useful for further sentiment analysis.
 
-#### Sentiment analysis 
+#### Sentiment Analysis 
 
-We plan to classify quotations by different topics and analyze the sentiment they are showing. For instance, there will be a negative attitude towards china in the quotations related to Covid-19. Also, we will do this in the time slot to see if there are any differences.
+The following step of our project will be to analyse the attitude of the speaker as demonstrated by each quotation. We will use ` Twitter-roBERTa-base for our sentiment analysis. This is a roBERTa-base model trained on ~58M tweets and finetuned for sentiment analysis with the TweetEval benchmark. 
 
 
 
@@ -89,3 +89,10 @@ We plan to classify quotations by different topics and analyze the sentiment the
 
 
 ### Code Architecture
+
+`src`
+
+`data`
+
+
+
