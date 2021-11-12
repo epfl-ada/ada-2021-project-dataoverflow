@@ -90,7 +90,7 @@ The following step of our project will be to analyse the attitude of the speaker
 ├── Initial_Analysis.ipynb: Our initial analysis notebook contains data cleaning and EDA
 ├── ML-Pipeline.ipynb: The machine learning pipeline implements the keyword exaction and sentiment analysis 
 ├── README.md
-├── data: the related dataset we use
+├── data: the sub-dataset with data cleaning and analysis
 ├── notebooks: notebooks that contain our trying
 │   ├── LDA.ipynb
 │   └── firstTry.ipynb
