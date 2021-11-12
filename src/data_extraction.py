@@ -2,7 +2,7 @@ import bz2
 import json
 
 '''
-This python file is used to extract the dataset from article-centric quotabank datas.
+This python file is used to extract the dataset from article-centric quotabank data-sets.
 The detailed reasons why we filter like the following can be found in `Initial_Analysis.ipynb`
 '''
 
