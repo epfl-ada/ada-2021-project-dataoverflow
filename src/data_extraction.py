@@ -12,7 +12,7 @@ for year in range(2008, 2021):
     path_to_file = 'data/quotebank-'+str(year)+'.json.bz2'
     path_to_out = 'data/quotebank-'+str(year)+'-context-contains-related.json.bz2'
     
-    t = True
+
     with bz2.open(path_to_out, 'wb') as d_file:
         with bz2.open(path_to_file, 'rb') as s_file:
             for i, instance in enumerate(s_file):
