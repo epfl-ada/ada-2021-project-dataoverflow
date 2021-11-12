@@ -87,9 +87,15 @@ The following step of our project will be to analyse the attitude of the speaker
 
 ### Code Architecture
 
-`src`
+├── Initial_Analysis.ipynb: Our initial analysis notebook contains data cleaning and EDA
 
-`data`
-
-
+├── ML-Pipeline.ipynb: The machine learning pipeline implements the keyword exaction and sentiment analysis 
+├── README.md
+├── data: the related dataset we use
+├── notebooks: notebooks that contain our trying
+│   ├── LDA.ipynb
+│   └── firstTry.ipynb
+└── src: python scripts that help deal with the data
+    ├── data_cleaning.py
+    └── data_extraction.py
 
