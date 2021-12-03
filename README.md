@@ -60,7 +60,7 @@ The following step of our project will be to analyse the attitude of the speaker
 |  Date |  Task    |  Completion    |
 | ---- | ---- | ---- |
 |  By Week 8 (Milestone 2 Due)   | Finish initial assumptions. Get a sub-dataset from extraction and cleaning the `quotebank-2020.json.bz2`. Try some initial analysis. Verify the feasibility of subsequent steps on sub-dataset. | :heavy_check_mark: |
-|  By Week 10 (HW2 Due)   |   Finish extraction and cleaning of the whole dataset. Finish topic extraction.   |      |
+|  By Week 10 (HW2 Due)   |   Finish extraction and cleaning of the whole dataset. Finish topic extraction.   |  :heavy_check_mark:  |
 |  By week 11    | Finish sentiment analysis. Draw some initial conclusions of the big picture. |      |
 |  By week 12   | Do deeper analysis and visualizations on each of the above research topics. |      |
 |  By week 13 (Milestone 3 Due)  |   Finalize the conclusions. Finish the notebook and the Readme file. Present our data story on a GitHub webpage.   |      |
