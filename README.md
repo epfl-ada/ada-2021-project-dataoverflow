@@ -86,11 +86,15 @@ The following step of our project will be to analyse the attitude of the speaker
 ├── Initial_Analysis.ipynb: Our initial analysis notebook contains data cleaning and EDA
 ├── ML-Pipeline.ipynb: The machine learning pipeline implements the keyword exaction and sentiment analysis 
 ├── README.md
+├── Extract_kw_labels_RQ3_part_1.ipynb, Topic_sentiment_RQ3_part_2.ipynb : Pipeline to answer question 3
 ├── data: the sub-dataset with data cleaning and analysis
 ├── notebooks: notebooks that contain our trying
 │   ├── LDA.ipynb
 │   └── firstTry.ipynb
 └── src: python scripts that help deal with the data
     ├── data_cleaning.py
+    ├── ml_pipeline.py: Main python script that extracts keywords and sentiment
+    ├── qid_scraper.py, qid_getter.py: Scripts to get labels for all QID's in the dataset
+    ├── merge_sentiment.py
     └── data_extraction.py
 ```
