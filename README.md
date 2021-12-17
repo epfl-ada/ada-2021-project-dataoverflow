@@ -83,37 +83,14 @@ The following step of our project will be to analyse the attitude of the speaker
 
 ### Code Architecture
 ```
-├── Extract_kw_labels_RQ3_part_1.ipynb
-├── Keyword_Analysis_RQ_1_2.ipynb
-├── Learning_Data_RQ0.ipynb
-├── README.md
-├── Sentiment_Index_Analysis_RQ4.ipynb
+├── Learning_Data_RQ0.ipynb: The Overview of the data distrubtaion
+├── Keyword_Analysis_RQ_1_2.ipynb: Keyword Analysis and the plot generator for Research Question 1&2
+├── Extract_kw_labels_RQ3_part_1.ipynb: 
 ├── Topic_sentiment_RQ3_part_2.ipynb
-├── data
-│   ├── complete_western_quotes_2020.json.bz2
-│   ├── processed_western_quotes_2020.json.bz2
-│   ├── quotebank-china-2020.json.bz2
-│   ├── speaker_attributes.parquet
-│   │   ├── _SUCCESS
-│   │   ├── part-00000-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00001-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00002-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00003-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00004-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00005-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00006-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00007-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00008-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00009-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00010-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00011-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00012-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00013-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   ├── part-00014-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   │   └── part-00015-0d587965-3d8f-41ce-9771-5b8c9024dce9-c000.snappy.parquet
-│   ├── western-quotes-2020.json.bz2
-│   └── western_countries_list.csv
-├── notebooks
+├── Sentiment_Index_Analysis_RQ4.ipynb: Sentiment Index Analysis and the plot generator for Research Question 4
+├── README.md
+├── data: the sub-dataset with data cleaning and analysis
+├── notebooks: Notebooks that contain our trying 
 │   ├── Generate_count_plots.ipynb
 │   ├── Initial_Analysis.ipynb
 │   ├── LDA.ipynb
