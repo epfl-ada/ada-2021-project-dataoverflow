@@ -30,12 +30,7 @@ To answer this question, we propose the following sub-questions:
 
 ​    After focusing on the big picture, we want to look back to specific speakers. By combining data about the speakers in the dataset, we can see if there is any difference in different speaker groups? For example, attitudes from European countries and US may be different. In the US, Democrats may have more positive attitudes than Republicans. Female speakers may be more positive than male speakers.
 
-There are also some questions other that worth investigating:
-
-- For some certain speakers, Have their views changed after some event?
-- Do the views of the same speaker differ when quoted by the different press?
-
-## Proposed datasets
+## Datasets
 ` Quotebank Article-centric Dataset ` In order to obtain quotes about China, we need to filter the Quotebank dataset. However, we notice that there are many quotations that are related to China but do not contain any keywords like 'China' or 'Sino-'.  To have a more comprehensive and reasonable dataset, we decide to use the quotebank article-centric dataset to filter the data by checking whether the keywords are contained in the `leftContext`, `rightContext` or `quotation` rather than `quotation` alone, since the context around the quotation also matters to what the quotation is talking about. This sub-dataset will be therefore more reasonable and complete. 
 
 ` Wikidata `： To answer research question 4, we need more detailed information about each speaker. Thus, we intend to use Wikidata to get detailed information about speakers like gender, age,  nationality, party affiliation, etc for further analysis.
