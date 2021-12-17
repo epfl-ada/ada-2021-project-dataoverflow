@@ -85,12 +85,12 @@ The following step of our project will be to analyse the attitude of the speaker
 ```
 ├── Learning_Data_RQ0.ipynb: The Overview of the data distrubtaion
 ├── Keyword_Analysis_RQ_1_2.ipynb: Keyword Analysis and the plot generator for Research Question 1&2
-├── Extract_kw_labels_RQ3_part_1.ipynb: 
-├── Topic_sentiment_RQ3_part_2.ipynb
+├── Extract_kw_labels_RQ3_part_1.ipynb: Pipeline to answer question 3
+├── Topic_sentiment_RQ3_part_2.ipynb: Pipeline to answer question 3
 ├── Sentiment_Index_Analysis_RQ4.ipynb: Sentiment Index Analysis and the plot generator for Research Question 4
 ├── README.md
 ├── data: the sub-dataset with data cleaning and analysis
-├── notebooks: Notebooks that contain our trying 
+├── notebooks: Notebooks that contain our deprecated attempts 
 │   ├── Generate_count_plots.ipynb
 │   ├── Initial_Analysis.ipynb
 │   ├── LDA.ipynb
@@ -100,7 +100,7 @@ The following step of our project will be to analyse the attitude of the speaker
     ├── data_cleaning.py
     ├── data_extraction.py
     ├── merge_sentiment.py
-    ├── ml_pipeline.py
-    ├── qid_getter.py
-    └── qid_scraper.py
+    ├── ml_pipeline.py: Main python script that extracts keywords and sentiment
+    ├── qid_getter.py: Scripts to get labels for all QID's in the dataset
+    └── qid_scraper.py: Scripts to get labels for all QID's in the dataset
 ```
