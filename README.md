@@ -27,9 +27,9 @@ To answer this question, we propose the following sub-questions:
 
 ​    What interest us most is the attitudes these quotations show towards China. We believe that these quotes represent the attitude of the speakers and the media towards China, and to some extent, the views of the public towards China. For instance, there may be a negative attitude towards China in the quotations related to Covid-19. Again, we will attempt to analyze these attitudes as they change over time.
 
-4. Do attitudes differ between different speakers?
+4. Do attitudes differ between different groups of speakers?
 
-​    After focusing on the big picture, we want to look back to specific speakers. By combining data about the speakers in the dataset, we can see if there is any difference in different speaker groups? For example, attitudes from European countries and US may be different. In the US, Democrats may have more positive attitudes than Republicans. Female speakers may be more positive than male speakers.
+​    After focusing on the big picture, we want to look back to specific attributes of speakers. By combining data about the speakers in the dataset, we can see if there is any difference in different speaker groups? For example, attitudes from European countries and US may be different. In the US, Democrats may have more positive attitudes than Republicans. Female speakers may be more positive than male speakers.
 
 ## Datasets
 ` Quotebank Article-centric Dataset ` In order to obtain quotes about China, we need to filter the Quotebank dataset. However, we notice that there are many quotations that are related to China but do not contain any keywords like 'China' or 'Sino-'.  To have a more comprehensive and reasonable dataset, we decide to use the quotebank article-centric dataset to filter the data by checking whether the keywords are contained in the `leftContext`, `rightContext` or `quotation` rather than `quotation` alone, since the context around the quotation also matters to what the quotation is talking about. This sub-dataset will be therefore more reasonable and complete. 
