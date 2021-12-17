@@ -67,7 +67,7 @@ The following step of our project will be to analyse the attitude of the speaker
 ## Team Organization
 @Bonan: Pre-process datasets, Analyse topic extraction result, Data visualization, Finalize the conclusions
 
-@Jozef: Evaluate model performance, Topic extraction, Analyse sentiment analysis result, Finalize the conclusions, Present data
+@Jozef: Evaluate model performance, Topic extraction, Analyse sentiment analysis result, Finalize the conclusions, Present data, Topic extraction, Keyword classification
 
 @Rui: Data wrangling, Initial data analysis, Sentiment analysis, Data visualization, Finalize the conclusions
 
