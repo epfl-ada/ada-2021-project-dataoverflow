@@ -93,5 +93,8 @@ The following step of our project will be to analyse the attitude of the speaker
 │   └── firstTry.ipynb
 └── src: python scripts that help deal with the data
     ├── data_cleaning.py
+    ├── ml_pipeline.py: Main python script that extracts keywords and sentiment
+    ├── qid_scraper.py, qid_getter.py: Scripts to get labels for all QID's in the dataset
+    ├── merge_sentiment.py
     └── data_extraction.py
 ```
