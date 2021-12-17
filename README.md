@@ -1,7 +1,8 @@
 # Quotations: China from a western perspective.
 
 ---
-### Link to our datastory (https://ruiarui.github.io/project-dataoverflow/)
+### Link to our datastory https://ruiarui.github.io/project-dataoverflow/
+
 ## Abstract
 
 ​    Over the years we have observed deteriorating relations between the US and China. In previous years we have seen escalating tensions as a result of the increasing trade deficit of the US with respect to China. More recently, the news has been dominated by the worldwide outbreak of Covid-19, for which some in the US blame China. It seems that often much of the opinions people hold find their origins with some public figure. Our research would therefore like to analyze the utterances of western public figures about China, as a reflection of the opinions of the general public. This research will therefore aim to provide an account of the changing relations as viewed from the western perspective. 
